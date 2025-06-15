@@ -32,7 +32,7 @@ export default async function HomePage() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">PHINMA UPang APEC</h1>
 
             <p className="text-xl md:text-2xl mb-4 text-gray-100 font-medium">
-              Appointments, Performance, Evaluation, and Electoral Commission
+              Appointments, Performance Evaluation, and Electoral Commission
             </p>
 
             <p className="text-lg mb-12 max-w-4xl mx-auto text-gray-200 leading-relaxed">
