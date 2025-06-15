@@ -3,7 +3,8 @@ import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { PortableText } from "@portabletext/react"
 import { Mail, Phone } from "lucide-react"
-
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 async function getCommissioners() {
   return await client.fetch(queries.commissioners)
 }

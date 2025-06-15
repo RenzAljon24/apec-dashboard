@@ -4,7 +4,8 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
-
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 async function getUpdate(slug: string) {
   return await client.fetch(queries.updateBySlug, { slug })
 }

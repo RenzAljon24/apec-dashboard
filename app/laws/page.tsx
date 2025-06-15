@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { FileText, Download } from "lucide-react"
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 async function getLaws() {
   return await client.fetch(queries.laws)

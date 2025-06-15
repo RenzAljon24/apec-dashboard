@@ -1,7 +1,8 @@
 import { client, queries } from "@/lib/sanity"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
-
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 async function getContactInfo() {
   return await client.fetch(queries.contact)
 }
