@@ -55,7 +55,7 @@ export default async function HomePage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-green-800 transition-all duration-300"
+                className="border-white text-green-700 hover:bg-white hover:text-green-800 transition-all duration-300"
               >
                 <Link href="/contact">Contact Us</Link>
               </Button>
